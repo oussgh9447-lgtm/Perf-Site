@@ -37,37 +37,18 @@ export const cloudinaryUrl = (
   return `https://res.cloudinary.com/${CLOUDINARY_CLOUD_NAME}/image/upload/${transformations}/${publicId}`;
 };
 
-// Video URL builder with adaptive streaming
+// Video URL builder
 export const cloudinaryVideoUrl = (
   publicId: string,
   options: {
-    width?: number;
-    height?: number;
-    quality?: 'auto' | 'auto:low' | 'auto:eco' | 'auto:good' | 'auto:best';
-    format?: 'auto' | 'mp4' | 'webm';
-    crop?: 'fill' | 'fit' | 'pad' | 'scale';
     version?: string | number;
   } = {}
 ): string => {
-  const {
-    width,
-    height,
-    quality = 'auto',
-    format = 'auto',
-    crop = 'fill',
-    version,
-  } = options;
+  const { version } = options;
 
-  const transformations = [
-    version ? `v_${version}` : null,
-    format !== 'auto' ? `f_${format}` : null,
-    quality !== 'auto' ? `q_${quality}` : null,
-    width ? `w_${width}` : null,
-    height ? `h_${height}` : null,
-    crop ? `c_${crop}` : null,
-  ].filter(Boolean).join(',');
+  const versionSegment = version ? `v${version}/` : '';
 
-  return `https://res.cloudinary.com/${CLOUDINARY_CLOUD_NAME}/video/upload/${transformations}/${publicId}`;
+  return `https://res.cloudinary.com/${CLOUDINARY_CLOUD_NAME}/video/upload/${versionSegment}${publicId}.mp4`;
 };
 
 // Helper for optimized images
