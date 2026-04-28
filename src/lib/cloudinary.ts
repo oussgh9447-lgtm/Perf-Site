@@ -4,9 +4,6 @@
 export const CLOUDINARY_CLOUD_NAME = 'dnxarwdjo';
 export const CLOUDINARY_UPLOAD_PRESET = 'perf-analysis-unsigned';
 
-// Bump this version after re-uploading videos to bust Cloudinary CDN cache
-export const CLOUDINARY_MEDIA_VERSION = Date.now();
-
 // Cloudinary URL builder with automatic optimizations
 export const cloudinaryUrl = (
   publicId: string,
@@ -102,9 +99,9 @@ export const media = {
   annotationTools: getOptimizedImage('perf-analysis/perf-analysis/annotation-tools', 600, 400),
   ia: getOptimizedImage('perf-analysis/perf-analysis/ia', 600, 400),
   // Videos
-  coachPadVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/CoachPad', { version: CLOUDINARY_MEDIA_VERSION }),
-  dataPerfVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/DataPerf', { version: CLOUDINARY_MEDIA_VERSION }),
-  matchViewVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/MatchView', { version: CLOUDINARY_MEDIA_VERSION }),
-  profileVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/Profile', { version: CLOUDINARY_MEDIA_VERSION }),
-  workspaceVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/Workspace', { version: CLOUDINARY_MEDIA_VERSION }),
+  coachPadVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/CoachPad'),
+  dataPerfVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/DataPerf'),
+  matchViewVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/MatchView'),
+  profileVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/Profile'),
+  workspaceVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/Workspace'),
 };
