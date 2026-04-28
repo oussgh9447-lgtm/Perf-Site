@@ -1,0 +1,92 @@
+[
+  {
+    "local": "ai-detection.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154178/perf-analysis/perf-analysis/ai-detection.png",
+    "publicId": "perf-analysis/ai-detection"
+  },
+  {
+    "local": "annot.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154180/perf-analysis/perf-analysis/annot.png",
+    "publicId": "perf-analysis/annot"
+  },
+  {
+    "local": "annotation-tools.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154181/perf-analysis/perf-analysis/annotation-tools.png",
+    "publicId": "perf-analysis/annotation-tools"
+  },
+  {
+    "local": "coach.jpg",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154182/perf-analysis/perf-analysis/coach.jpg",
+    "publicId": "perf-analysis/coach"
+  },
+  {
+    "local": "CoachPad.mp4",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/video/upload/v1776154186/perf-analysis/perf-analysis/CoachPad.mp4",
+    "publicId": "perf-analysis/CoachPad"
+  },
+  {
+    "local": "DataPerf.mp4",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/video/upload/v1776154196/perf-analysis/perf-analysis/DataPerf.mp4",
+    "publicId": "perf-analysis/DataPerf"
+  },
+  {
+    "local": "heatmap.webp",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154197/perf-analysis/perf-analysis/heatmap.webp",
+    "publicId": "perf-analysis/heatmap"
+  },
+  {
+    "local": "ia.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154199/perf-analysis/perf-analysis/ia.png",
+    "publicId": "perf-analysis/ia"
+  },
+  {
+    "local": "jenkis.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154200/perf-analysis/perf-analysis/jenkis.png",
+    "publicId": "perf-analysis/jenkis"
+  },
+  {
+    "local": "kinetic-precision.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154201/perf-analysis/perf-analysis/kinetic-precision.png",
+    "publicId": "perf-analysis/kinetic-precision"
+  },
+  {
+    "local": "logo.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154201/perf-analysis/perf-analysis/logo.png",
+    "publicId": "perf-analysis/logo"
+  },
+  {
+    "local": "MatchView.mp4",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/video/upload/v1776154203/perf-analysis/perf-analysis/MatchView.mp4",
+    "publicId": "perf-analysis/MatchView"
+  },
+  {
+    "local": "profile-thumb.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154205/perf-analysis/perf-analysis/profile-thumb.png",
+    "publicId": "perf-analysis/profile-thumb"
+  },
+  {
+    "local": "Profile.mp4",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/video/upload/v1776154206/perf-analysis/perf-analysis/Profile.mp4",
+    "publicId": "perf-analysis/Profile"
+  },
+  {
+    "local": "thu.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154208/perf-analysis/perf-analysis/thu.png",
+    "publicId": "perf-analysis/thu"
+  },
+  {
+    "local": "thumb1.png",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154210/perf-analysis/perf-analysis/thumb1.png",
+    "publicId": "perf-analysis/thumb1"
+  },
+  {
+    "local": "workspace-thumb.jpg",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/image/upload/v1776154211/perf-analysis/perf-analysis/workspace-thumb.jpg",
+    "publicId": "perf-analysis/workspace-thumb"
+  },
+  {
+    "local": "Workspace.mp4",
+    "cloudinary": "https://res.cloudinary.com/dnxarwdjo/video/upload/v1776154213/perf-analysis/perf-analysis/Workspace.mp4",
+    "publicId": "perf-analysis/Workspace"
+  }
+]
