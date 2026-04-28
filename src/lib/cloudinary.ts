@@ -101,7 +101,7 @@ export const media = {
   // Videos
   coachPadVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/CoachPad'),
   dataPerfVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/DataPerf'),
-  matchViewVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/MatchView'),
+  matchViewVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/MatchView', { version: 1777388212 }),
   profileVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/Profile'),
   workspaceVideo: cloudinaryVideoUrl('perf-analysis/perf-analysis/Workspace'),
 };
